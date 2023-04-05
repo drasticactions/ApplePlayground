@@ -9,6 +9,8 @@ public class AppDelegate : UIApplicationDelegate {
 
 	public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
 	{
+        Drastic.Rainbows.SwizzleCommands.Start();
+
         Window = new UIWindow(UIScreen.MainScreen.Bounds);
 
         Window.RootViewController = new NukeImageViewController();

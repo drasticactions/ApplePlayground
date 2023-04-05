@@ -14,9 +14,12 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Drastic.PureLayout" Version="1.0.4" />
-    <PackageReference Include="Drastic.Nuke" Version="1.0.2" />
+    <PackageReference Include="Drastic.Nuke" Version="1.0.3" />
     <PackageReference Include="Drastic.TwitterCover" Version="1.0.2" />
     <PackageReference Include="Drastic.CoverImage" Version="1.0.0" />
+    <PackageReference Include="Drastic.Masonry" Version="1.0.2" />
+    <PackageReference Include="Drastic.Rainbows" Version="1.0.12" />
   </ItemGroup>
+  <Import Project="..\ApplePlayground.PhoneAndDesktop\ApplePlayground.PhoneAndDesktop.projitems" Label="Shared" Condition="Exists('..\ApplePlayground.PhoneAndDesktop\ApplePlayground.PhoneAndDesktop.projitems')" />
   <Import Project="..\ApplePlayground\ApplePlayground.projitems" Label="Shared" Condition="Exists('..\ApplePlayground\ApplePlayground.projitems')" />
 </Project>

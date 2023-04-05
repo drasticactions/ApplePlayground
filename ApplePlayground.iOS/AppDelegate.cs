@@ -11,6 +11,8 @@ public class AppDelegate : UIApplicationDelegate {
 
 	public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
 	{
+		Drastic.Rainbows.SwizzleCommands.Start();
+
         // create a new window instance based on the screen size
         Window = new UIWindow (UIScreen.MainScreen.Bounds);
 

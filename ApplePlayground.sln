@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ApplePlayground", "ApplePlayground\ApplePlayground.shproj", "{8E856692-A6D3-4498-B801-46C33D502AD7}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ApplePlayground.PhoneAndDesktop", "ApplePlayground.PhoneAndDesktop\ApplePlayground.PhoneAndDesktop.shproj", "{8E856692-A6D3-4498-B801-46C33D502AD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplePlayground.iOS", "ApplePlayground.iOS\ApplePlayground.iOS.csproj", "{518889FE-D7C5-434F-9E07-F64A2637DF23}"
 EndProject

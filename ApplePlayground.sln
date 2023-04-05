@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplePlayground.MacCatalyst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplePlayground.tvOS", "ApplePlayground.tvOS\ApplePlayground.tvOS.csproj", "{F26781A0-55B5-43A5-9AFC-04D18CCB4BC1}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ApplePlayground", "ApplePlayground\ApplePlayground.shproj", "{458ED296-C311-4854-8D60-DE857F16C8F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
